@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods of vars</title>
+</head>
+
+<body>
+    <h2>Declaration Methods</h2>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+
+
+    <script>
+        //  var , let, const
+        var a = 100;
+        let b = 200;
+        const g = 10;
+
+        console.log(a);
+        console.log(b); {
+            b = 300;
+            a = 500;
+            console.log(b);
+            console.log(a);
+
+        }
+        console.log(b);
+        console.log(a);
+        document.getElementById("demo1").innerHTML = a;
+        document.getElementById("demo2").innerHTML = b;
+    </script>
+</body>
+
+</html>

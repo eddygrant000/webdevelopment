@@ -1,0 +1,87 @@
+.wrapper {
+    overflow: auto;
+}
+
+#main {
+    margin-left: 5px;
+}
+
+#leftsidebar {
+    float: none;
+    width: auto;
+}
+
+#menulist {
+    margin: 0;
+    padding: 0;
+}
+
+.menuitem {
+    background: cyan;
+    border: 1px solid black;
+    list-style-type: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+}
+
+@media screen and (min-width: 480px) {
+    #leftsidebar {
+        float: left;
+        width: 200px;
+        background: yellow;
+    }
+    #main {
+        margin-left: 220px;
+    }
+}
+
+.dropbtn {
+    background-color: cyan;
+    color: black;
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 0.5s ease;
+    border-radius: 10px;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: none;
+    width: 100%;
+}
+
+
+/* screen print all speech p::before p::after */

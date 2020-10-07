@@ -1,0 +1,24 @@
+.font1 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.font2 {
+    font-size: 2em;
+}
+
+.font3 {
+    font-size: 30px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+/* 1vw = 1% of veiwport width */
+
+.font4 {
+    font-size: 5vw;
+}
+
+.font5 {
+    font-size: 10vw;
+}

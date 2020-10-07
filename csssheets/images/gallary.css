@@ -1,0 +1,41 @@
+.gallery {
+    border: 1px solid white;
+}
+
+.gallery:hover {
+    border: 1px solid black;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    text-align: center;
+    padding: 10px;
+    font-size: 5vw;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    float: left;
+    width: 24.9%;
+    padding: 0 6px;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}

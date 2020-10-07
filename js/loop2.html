@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>For/in</h2>
+
+    <script>
+        var student = {
+            name: "Eddy Grant",
+            age: 22,
+            email: 'eddygrant000@gmail.com',
+            username: 'eddygrant000',
+        };
+
+        var i;
+        for (i in student) {
+            document.write(student[i] + "<br>");
+        }
+
+        var courses = ["Python", "Web Development", "ML"];
+        var courses = "Eddy Grant";
+
+        var x;
+        for (x of courses) {
+            document.write(x + "<br>")
+        }
+    </script>
+</body>
+
+</html>

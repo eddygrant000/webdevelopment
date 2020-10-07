@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Handling</title>
+</head>
+
+<body>
+    <h1>Error handling</h1>
+
+    <button type="button" onclick="eddy()">Click</button>
+
+    <div id="test"></div>
+    <script>
+        function eddy() {
+            var data1 = 200;
+            var data2 = 300;
+            try {
+                document.getElementById("test").innerHTML = data4
+                console.log("hi line2")
+
+            } catch (e) {
+                document.getElementById("test").innerHTML = "hi error is occured <br>" + e.description
+            } finally {
+                console.log("hi from finally block")
+            }
+        }
+    </script>
+</body>
+
+</html>

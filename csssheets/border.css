@@ -1,0 +1,22 @@
+/* style, color, width, radius */
+
+.border1 {
+    border-style: dashed;
+    border-color: red;
+    border-width: 10px;
+}
+
+.border2 {
+    border-style: solid;
+    border-color: blue;
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+.border3 {
+    border: 5px groove green;
+}
+
+.border4 {
+    border: 10px double red;
+}
